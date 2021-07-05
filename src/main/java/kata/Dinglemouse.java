@@ -4,7 +4,12 @@ class Dinglemouse {
 
   private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ?!@#&()|<>.:=-+*/0123456789";
 
-  public  String[] flapDisplay(final String[] lines, final int[][] rotors) {
+  public  String replaceDots(final String str) {
+    System.out.println();
+    return str.replaceAll("\\.", "-");
+  }
+
+  public String[] flapDisplay(final String[] lines, final int[][] rotors) {
     String[] result = new String[lines.length];
     for (int line = 0; line < lines.length; line++) {
       StringBuilder temp = new StringBuilder();

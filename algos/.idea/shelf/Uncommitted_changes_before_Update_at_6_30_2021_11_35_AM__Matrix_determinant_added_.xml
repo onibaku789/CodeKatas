@@ -1,0 +1,49 @@
+<changelist name="Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]" date="1625045715185" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 6/30/2021 11:35 AM [Matrix determinant added]" />
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/DuplicateChar.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/DuplicateChar.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/SudokuValidator.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/SudokuValidator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/Main.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/Matrix.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/Matrix.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/Kata.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/Kata.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/MergeIterator.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/MergeIterator.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/test-classes/kata/MatrixTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/MatrixTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/Dinglemouse.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/Dinglemouse.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" />
+    <option name="AFTER_PATH" value="target/classes/kata/CountIPAddresses.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_30_2021_11_35_AM_[Matrix_determinant_added]/CountIPAddresses.class" />
+  </binary>
+</changelist>

@@ -18,15 +18,11 @@ public class Leaderboard {
 
     public Map<String, Integer> driverResults() {
         Map<String, Integer> results = new HashMap<>();
-        for (Race race : this.races) {
+        for (Race race : races) {
             for (Driver driver : race.getResults()) {
                 String driverName = race.getDriverName(driver);
                 int points = race.getPoints(driver);
-                if (results.containsKey(driverName)) {
-                    results.put(driverName, results.get(driverName) + points);
-                } else {
-                    results.put(driverName, 0 + points);
-                }
+                results.put(driverName, results.getOrDefault(driverName, 0) + points);
             }
         }
         return results;
@@ -35,7 +31,7 @@ public class Leaderboard {
     public List<String> driverRankings() {
         Map<String, Integer> results = driverResults();
         List<String> resultsList = new ArrayList<>(results.keySet());
-        Collections.sort(resultsList, new DriverByPointsDescendingComparator(results));
+        resultsList.sort(new DriverByPointsDescendingComparator(results));
         return resultsList;
     }
 

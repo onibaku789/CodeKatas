@@ -51,4 +51,15 @@ public class AlarmTest {
     then(sensor).should().popNextPressurePsiValue();
   }
 
+  @Test
+  void checkWith22() {
+    //GIVEN
+    given(sensor.popNextPressurePsiValue()).willReturn(22d);
+    //WHEN
+    underTest.check();
+    //THEN
+    assertTrue(underTest.isAlarmOn());
+    then(sensor).should().popNextPressurePsiValue();
+  }
+
 }

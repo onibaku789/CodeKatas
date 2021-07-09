@@ -1,37 +1,42 @@
 package tddmicroexercises.leaderboard;
 
-public class Driver {
+import java.util.Objects;
 
-    private final String name;
-    private final String country;
+public class Driver implements Comparable<Driver> {
 
-    public Driver(String name, String country) {
-        this.name = name;
-        this.country = country;
-    }
+  private final String name;
+  private final String country;
 
-    public String getName() {
-        return name;
-    }
+  public Driver(String name, String country) {
+    this.name = name;
+    this.country = country;
+  }
 
-    public String getCountry() {
-        return country;
-    }
+  public String getName() {
+    return name;
+  }
 
-    @Override
-    public int hashCode() {
-        return name.hashCode() * 31 + country.hashCode();
-    }
+  public String getCountry() {
+    return country;
+  }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null || !(obj instanceof Driver)) {
-            return false;
-        }
-        Driver other = (Driver) obj;
-        return this.name.equals(other.name) && this.country.equals(other.country);
-    }
+  @Override
+  public boolean equals(Object o) {
+    if (this == o)
+      return true;
+    if (!(o instanceof Driver))
+      return false;
+    Driver driver = (Driver) o;
+    return Objects.equals(name, driver.name) && Objects.equals(country, driver.country);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, country);
+  }
+
+  @Override
+  public int compareTo(Driver o) {
+    return 0;
+  }
 }

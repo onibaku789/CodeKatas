@@ -9,7 +9,7 @@ import java.util.List;
 public class HtmlPagesConverter {
 
     private String filename;
-    private List<Integer> breaks = new ArrayList<Integer>();
+    private List<Integer> breaks = new ArrayList<>();
     
     public HtmlPagesConverter(String filename) throws IOException {
         this.filename = filename;

@@ -42,7 +42,7 @@ public class Yatzy {
     }
 
     public int largeStraight() {
-        if (stream().distinct().filter(integer -> integer > 1).count() == NUMBER_OF_DICE) {
+        if (stream().filter(integer -> integer > 1).distinct().count() == NUMBER_OF_DICE) {
             return 20;
         }
         return 0;

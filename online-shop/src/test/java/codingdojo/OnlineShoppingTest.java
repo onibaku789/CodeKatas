@@ -44,7 +44,7 @@ public class OnlineShoppingTest {
     }
 
     @Test
-    public void switchStore() throws Exception {
+    public void switchStore() {
         DeliveryInformation deliveryInfo = new DeliveryInformation("HOME_DELIVERY", nordstan, 60);
         deliveryInfo.setDeliveryAddress("NEARBY");
 

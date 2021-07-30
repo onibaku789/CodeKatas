@@ -33,7 +33,7 @@ public class Cart implements ModelObject {
     }
 
     private String displayItems(List<Item> items) {
-        StringBuffer itemDisplay = new StringBuffer("\n");
+        StringBuilder itemDisplay = new StringBuilder("\n");
         for (Item item : items) {
             itemDisplay.append(item.toString());
             itemDisplay.append("\n");
